@@ -1,0 +1,23 @@
+{
+  "title": "Tester verdict, contract v1. One item per checklist id; evidence refs are E<n> ids from the evidence bundle or file:<path>:<a>-<b>.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items", "summary_vi"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "result", "evidence", "reason_vi"],
+        "properties": {
+          "id": {"type": "string"},
+          "result": {"type": "string", "enum": ["pass", "fail"]},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "reason_vi": {"type": "string"}
+        }
+      }
+    },
+    "summary_vi": {"type": "string"}
+  }
+}

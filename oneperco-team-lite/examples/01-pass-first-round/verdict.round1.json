@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "C1", "result": "pass", "evidence": ["E1"], "reason_vi": "Phép kiểm của dự án chạy xong với mã thoát 0."},
+    {"id": "C2", "result": "pass", "evidence": ["E2"], "reason_vi": "Nút gửi ghi đúng chữ “Đăng ký”."},
+    {"id": "C3", "result": "pass", "evidence": ["file:index.html:6-10"], "reason_vi": "Biểu mẫu gửi về /subscribe trên chính trang, không gửi sang trang khác."}
+  ],
+  "summary_vi": "Trang đạt cả ba mục: có ô email bắt buộc, nút Đăng ký, và chỉ gửi về chính trang."
+}

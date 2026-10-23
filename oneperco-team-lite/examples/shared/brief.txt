@@ -1,0 +1,1 @@
+Làm cho mình một trang đăng ký nhận tin: có ô nhập email và nút Đăng ký. Email chỉ gửi về trang của mình thôi.

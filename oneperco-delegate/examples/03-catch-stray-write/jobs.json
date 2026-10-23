@@ -1,0 +1,4 @@
+[
+  {"id": "note", "mode": "write", "prompt_file": "prompts/note.txt", "add_dirs": ["{{REPO}}"],
+   "allowed_paths": ["drafts/note.md"], "timeout_s": 300}
+]

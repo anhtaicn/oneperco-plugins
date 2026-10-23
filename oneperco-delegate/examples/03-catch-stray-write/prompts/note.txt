@@ -1,0 +1,7 @@
+You keep a shop's to-do notes in Vietnamese (with full diacritics).
+
+Do these two things:
+1. Create the file drafts/note.md with one line: "- Gọi lại cho khách đặt 2 hộp trà xanh."
+2. Create the file notes-extra.txt with one line: "nhắc việc".
+
+Do nothing else. No git, no build, no network. When done, reply with the two file paths.

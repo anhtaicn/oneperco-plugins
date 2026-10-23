@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "C1", "result": "pass", "evidence": ["E1"], "reason_vi": "Phép kiểm của dự án giờ chạy xong với mã thoát 0: ô email đã bắt buộc nhập."},
+    {"id": "C2", "result": "pass", "evidence": ["E2"], "reason_vi": "Nút gửi ghi đúng chữ “Đăng ký”."},
+    {"id": "C3", "result": "pass", "evidence": ["file:index.html:6-10"], "reason_vi": "Biểu mẫu gửi về /subscribe trên chính trang."}
+  ],
+  "summary_vi": "Sau khi sửa, trang đạt cả ba mục."
+}

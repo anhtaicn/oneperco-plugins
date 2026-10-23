@@ -1,0 +1,12 @@
+{
+  "name": "oneperco-team-lite",
+  "version": "0.1.0",
+  "description": "A small AI team in Claude Code: a PM plans an acceptance checklist you approve, a Builder builds, and a read-only Tester from another model family checks every item with evidence, at most two rounds, with a plain Vietnamese report.",
+  "author": {
+    "name": "Nguyen Xuan Tai (oneperco)",
+    "url": "https://oneperco.com"
+  },
+  "homepage": "https://oneperco.com",
+  "license": "MIT",
+  "keywords": ["team", "review", "testing", "acceptance", "evidence", "vietnamese"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "oneperco-delegate",
+  "version": "0.1.0",
+  "description": "Hand bulk, machine-checkable work from Claude Code to the Antigravity CLI (agy -p) in parallel, then accept it with validators instead of trusting the executor's own report.",
+  "author": {
+    "name": "Nguyen Xuan Tai (oneperco)",
+    "url": "https://oneperco.com"
+  },
+  "homepage": "https://oneperco.com",
+  "license": "MIT",
+  "keywords": ["delegation", "batch", "validation", "acceptance", "antigravity", "vietnamese"]
+}

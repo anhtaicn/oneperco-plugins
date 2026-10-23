@@ -1,0 +1,5 @@
+[
+  {"match": "áo sơ mi", "result": {"kind": "question", "reason": "The customer asks whether a size is in stock."}},
+  {"match": "trà xanh", "result": {"kind": "order", "reason": "The customer asks to buy and ship two boxes."}},
+  {"match": "giao trễ", "result": {"kind": "complaint", "reason": "The customer reports a late, damaged delivery."}}
+]

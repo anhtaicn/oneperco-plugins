@@ -1,0 +1,8 @@
+{
+  "final_state": "passed",
+  "rounds": [
+    {"overall": "pass", "failed_items": [], "overrides": {}}
+  ],
+  "report_contains": ["Kết quả: ĐẠT", "✅ C1", "✅ C3"],
+  "live_final_state": "passed"
+}

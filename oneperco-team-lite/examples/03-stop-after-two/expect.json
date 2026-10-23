@@ -1,0 +1,9 @@
+{
+  "final_state": "needs_decision",
+  "rounds": [
+    {"overall": "fail", "failed_items": ["C1", "C3"], "overrides": {}},
+    {"overall": "fail", "failed_items": ["C3"], "overrides": {"C3": "no_evidence"}}
+  ],
+  "report_contains": ["CẦN BẠN QUYẾT ĐỊNH", "❌ C3", "Bạn có thể chọn"],
+  "live_final_state": "needs_decision"
+}

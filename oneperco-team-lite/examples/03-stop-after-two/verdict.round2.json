@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "C1", "result": "pass", "evidence": ["E1"], "reason_vi": "Ô email giờ đã bắt buộc nhập."},
+    {"id": "C2", "result": "pass", "evidence": ["E2"], "reason_vi": "Nút gửi ghi đúng chữ “Đăng ký”."},
+    {"id": "C3", "result": "pass", "evidence": [], "reason_vi": "Có vẻ ổn."}
+  ],
+  "summary_vi": "Có vẻ đã sửa xong."
+}

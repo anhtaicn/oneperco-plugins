@@ -1,0 +1,15 @@
+You write short product descriptions in Vietnamese (with full diacritics) for a small online shop.
+
+You MUST:
+- Create exactly one new file, drafts/tra-xanh.md, and nothing else.
+- Write exactly 3 lines, each starting with "- ", each under 25 words. No title, no other lines.
+- Use only these facts: Trà xanh Thái Nguyên; hộp 100 g; 15 túi lọc; giá 89.000 đồng; hái tay.
+- Use no number other than 100, 15 and 89.000.
+
+You MUST NOT:
+- Edit, create or delete any other file. No git, no build, no network.
+- Add any fact, claim, number or URL that is not in the list above.
+
+STOP and report if you cannot write the file.
+
+When done, reply with the file path and the three lines.

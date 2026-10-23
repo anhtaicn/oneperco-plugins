@@ -1,0 +1,9 @@
+[
+  {"id": "note-a", "mode": "write", "prompt_file": "prompts/note-a.txt",
+   "add_dirs": ["<scratch>"], "allowed_paths": ["content/notes/note-a.md"], "timeout_s": 1200},
+  {"id": "classify-1", "mode": "json", "project": "my-quarantine",
+   "prompt": "Classify the text below. Use no tools. Return only JSON.\n\n<text>",
+   "json_schema": {"type": "object",
+     "properties": {"kind": {"type": "string", "enum": ["a", "b"]}}, "required": ["kind"]},
+   "timeout_s": 150}
+]

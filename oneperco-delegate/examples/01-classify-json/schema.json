@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "kind": {"type": "string", "enum": ["question", "order", "complaint"]},
+    "reason": {"type": "string", "minLength": 1, "maxLength": 200}
+  },
+  "required": ["kind", "reason"],
+  "additionalProperties": false
+}

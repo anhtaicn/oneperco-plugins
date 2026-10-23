@@ -1,0 +1,17 @@
+{
+  "contract_version": 1,
+  "title_vi": "Trang đăng ký nhận tin",
+  "goal_vi": "Một trang có ô nhập email và nút Đăng ký, để khách để lại email nhận tin mỗi tuần.",
+  "plan": [
+    {"step": 1, "what_vi": "Tạo trang index.html có tiêu đề, ô email bắt buộc nhập và nút Đăng ký.", "files": ["index.html"]}
+  ],
+  "checklist": [
+    {"id": "C1", "text_vi": "Trang có biểu mẫu, ô email bắt buộc nhập và nút gửi",
+     "check": {"kind": "command", "argv": ["check_page.py"], "expect_exit": 0, "timeout_s": 60}},
+    {"id": "C2", "text_vi": "Nút gửi ghi chữ “Đăng ký”",
+     "check": {"kind": "file_contains", "path": "index.html", "text": "Đăng ký"}},
+    {"id": "C3", "text_vi": "Email chỉ gửi về chính trang của bạn, không gửi sang trang web khác",
+     "check": {"kind": "review", "look_for_vi": "Thuộc tính action của biểu mẫu là /subscribe (đường dẫn trên chính trang), không phải một địa chỉ http hay https của trang khác."}}
+  ],
+  "out_of_scope_vi": ["Lưu email vào cơ sở dữ liệu", "Gửi email xác nhận"]
+}

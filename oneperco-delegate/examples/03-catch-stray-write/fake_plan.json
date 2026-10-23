@@ -1,0 +1,3 @@
+[
+  {"match": "drafts/note.md", "write": {"drafts/note.md": "- Gọi lại cho khách đặt 2 hộp trà xanh.\n", "notes-extra.txt": "nhắc việc\n"}}
+]

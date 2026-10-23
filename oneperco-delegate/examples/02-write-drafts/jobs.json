@@ -1,0 +1,6 @@
+[
+  {"id": "tra-xanh", "mode": "write", "prompt_file": "prompts/tra-xanh.txt", "add_dirs": ["{{REPO}}"],
+   "allowed_paths": ["drafts/tra-xanh.md"], "timeout_s": 300},
+  {"id": "ca-phe", "mode": "write", "prompt_file": "prompts/ca-phe.txt", "add_dirs": ["{{REPO}}"],
+   "allowed_paths": ["drafts/ca-phe.md"], "timeout_s": 300}
+]

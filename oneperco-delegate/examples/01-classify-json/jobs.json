@@ -1,0 +1,8 @@
+[
+  {"id": "msg-1", "mode": "json", "project": "{{PROJECT}}", "prompt_file": "prompts/msg-1.txt",
+   "json_schema": "schema.json", "timeout_s": 180},
+  {"id": "msg-2", "mode": "json", "project": "{{PROJECT}}", "prompt_file": "prompts/msg-2.txt",
+   "json_schema": "schema.json", "timeout_s": 180},
+  {"id": "msg-3", "mode": "json", "project": "{{PROJECT}}", "prompt_file": "prompts/msg-3.txt",
+   "json_schema": "schema.json", "timeout_s": 180}
+]

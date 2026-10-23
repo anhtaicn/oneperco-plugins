@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "C1", "result": "pass", "evidence": ["E1"], "reason_vi": "Trang có ô email và nút gửi."},
+    {"id": "C2", "result": "pass", "evidence": ["E2"], "reason_vi": "Nút gửi ghi đúng chữ “Đăng ký”."},
+    {"id": "C3", "result": "pass", "evidence": ["file:index.html:6-10"], "reason_vi": "Biểu mẫu gửi về /subscribe trên chính trang."}
+  ],
+  "summary_vi": "Trang trông ổn."
+}

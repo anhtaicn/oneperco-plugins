@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "C1", "result": "fail", "evidence": ["E1"], "reason_vi": "Phép kiểm của dự án báo ô email chưa bắt buộc nhập."},
+    {"id": "C2", "result": "pass", "evidence": ["E2"], "reason_vi": "Nút gửi ghi đúng chữ “Đăng ký”."},
+    {"id": "C3", "result": "fail", "evidence": ["file:index.html:6-6"], "reason_vi": "Biểu mẫu gửi email sang một trang web khác (forms.example.net)."}
+  ],
+  "summary_vi": "Còn hai mục chưa đạt: ô email và nơi nhận email."
+}

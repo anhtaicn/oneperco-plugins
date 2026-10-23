@@ -1,0 +1,4 @@
+[
+  {"match": "drafts/tra-xanh.md", "write": {"drafts/tra-xanh.md": "- Trà xanh Thái Nguyên hái tay, vị chát dịu.\n- Hộp 100 g gồm 15 túi lọc tiện pha.\n- Giá 89.000 đồng một hộp.\n"}},
+  {"match": "drafts/ca-phe.md", "write": {"drafts/ca-phe.md": "- Cà phê Robusta Buôn Ma Thuột rang mộc.\n- Gói 500 g cho cả tuần pha phin.\n- Giá 120.000 đồng một gói.\n"}}
+]

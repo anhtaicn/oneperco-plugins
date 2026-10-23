@@ -1,0 +1,27 @@
+{
+  "name": "oneperco",
+  "owner": {
+    "name": "Nguyen Xuan Tai (oneperco)",
+    "url": "https://oneperco.com"
+  },
+  "metadata": {
+    "description": "Plugins from oneperco for one-person companies that build software with the AI plans they already pay for.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "oneperco-delegate",
+      "source": "./oneperco-delegate",
+      "description": "Hand bulk, machine-checkable work to the Antigravity CLI in parallel, then accept it with validators.",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "oneperco-team-lite",
+      "source": "./oneperco-team-lite",
+      "description": "A PM, a Builder and a Tester from another model family: plan, approve, build, then a checked verdict with evidence, reported in Vietnamese.",
+      "version": "0.1.0",
+      "category": "development"
+    }
+  ]
+}

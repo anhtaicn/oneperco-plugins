@@ -1,0 +1,10 @@
+{
+  "exit": 0,
+  "stray_writes": [],
+  "errors": {},
+  "outputs": {
+    "msg-1": {"kind": "question"},
+    "msg-2": {"kind": "order"},
+    "msg-3": {"kind": "complaint"}
+  }
+}

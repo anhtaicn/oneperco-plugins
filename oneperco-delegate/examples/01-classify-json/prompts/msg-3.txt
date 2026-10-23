@@ -1,0 +1,4 @@
+Classify the customer message below into exactly one kind: question (asks for information), order (asks to buy or ship something), or complaint (reports a problem). Use no tools. Return only JSON with the fields kind and reason (one short English sentence).
+
+Message:
+Hàng giao trễ 5 ngày mà hộp còn bị móp, mình rất bực.

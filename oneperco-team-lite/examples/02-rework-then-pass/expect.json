@@ -1,0 +1,9 @@
+{
+  "final_state": "passed",
+  "rounds": [
+    {"overall": "fail", "failed_items": ["C1"], "overrides": {"C1": "check_failed"}},
+    {"overall": "pass", "failed_items": [], "overrides": {}}
+  ],
+  "report_contains": ["Kết quả: ĐẠT", "Vòng 2/2"],
+  "live_final_state": "passed"
+}

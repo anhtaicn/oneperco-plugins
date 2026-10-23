@@ -1,0 +1,6 @@
+{
+  "exit": 0,
+  "stray_writes": [],
+  "errors": {},
+  "checker": ["tra-xanh", "ca-phe"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "<uuid>",
+  "name": "my-quarantine",
+  "projectResources": {"resources": [{"folderUri": "file:///<empty-folder-outside-your-repo>"}]},
+  "settings": {
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "nonWorkspaceFileAccessPolicy": "AGENT_SETTING_POLICY_DENY",
+    "internetAccessPolicy": "AGENT_SETTING_POLICY_DENY",
+    "enableTerminalSandbox": true
+  },
+  "isWorkspaceOnly": true,
+  "permissionGrants": {"permissionGrants": {"deny": [
+    "command(*)", "read_file(*)", "write_file(*)", "read_url(*)", "execute_url(*)", "mcp(*)"
+  ]}}
+}
