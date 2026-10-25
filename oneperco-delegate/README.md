@@ -10,7 +10,7 @@ việc hàng loạt kiểm được bằng máy. Không tin bản tự báo cáo
 ## Install
 
 ```text
-/plugin install oneperco-delegate --marketplace anhtaicn/oneperco-plugins
+/plugin install oneperco-delegate --marketplace oneperco-com/oneperco-plugins
 ```
 
 ## What you need

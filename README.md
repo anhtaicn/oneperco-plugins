@@ -13,7 +13,7 @@ that the work is right instead of an AI saying "done".
 In Claude Code, add this repository as a plugin marketplace, then install either plugin:
 
 ```text
-/plugin marketplace add anhtaicn/oneperco-plugins
+/plugin marketplace add oneperco-com/oneperco-plugins
 /plugin install oneperco-delegate@oneperco
 /plugin install oneperco-team-lite@oneperco
 ```

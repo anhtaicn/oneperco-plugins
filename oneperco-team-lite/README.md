@@ -12,7 +12,7 @@ cuối cùng là báo cáo tiếng Việt dễ hiểu.
 ## Install
 
 ```text
-/plugin install oneperco-team-lite --marketplace anhtaicn/oneperco-plugins
+/plugin install oneperco-team-lite --marketplace oneperco-com/oneperco-plugins
 ```
 
 ## What you need
