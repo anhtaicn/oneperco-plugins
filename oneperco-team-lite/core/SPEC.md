@@ -1,7 +1,7 @@
 # Team mode core contract, version 1
 
 The durable part of team mode. The `oneperco-team-lite` plugin implements it in
-`scripts/team.py` (Python, stdlib) today; `packages/core` of Vibe Code OS loads the same prompts,
+`scripts/team.py` (Python, stdlib) today; `packages/core` of OnePerCo OS loads the same prompts,
 schemas and strings later and reimplements the state machine in TypeScript (PLAN.md section 7,
 ruling 21). Changing anything in `core/` is a contract change: bump `contract_version` everywhere
 and update both implementations.
